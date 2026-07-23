@@ -1,0 +1,829 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Rayan Html Template</title>
+    <link rel="icon" type="image/png" href="assets/images/logo/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/rt-plugins.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+  </head>
+
+  <body class="font-gilroy font-medium text-gray text-lg leading-[27px]">
+    <!-- [if IE]> <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+    </p> <![endif] -->
+
+    <header class="site-header header-normal top-0 bg-white z-[9] rt-sticky">
+      <div class="main-header py-8">
+        <div class="container">
+          <div class="flex items-center justify-between flex-wrap">
+            <a
+              href="index.html"
+              class="brand-logo flex-none lg:mr-10 md:w-auto max-w-[120px]"
+            >
+              <img src="assets/images/logo/logo.svg" alt=""
+            /></a>
+            <div class="flex items-center flex-1">
+              <div class="flex-1 main-menu lg:relative xl:mr-[74px] mr-6">
+                <ul class="menu-active-classes">
+                  <li class="menu-item-has-children">
+                    <a href="#">Home</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="index.html">Home One</a>
+                      </li>
+                      <li>
+                        <a href="index2.html">Home Two</a>
+                      </li>
+                      <li>
+                        <a href="index3.html">Home Three</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="about.html">About 1</a>
+                      </li>
+                      <li>
+                        <a href="about2.html">About 2</a>
+                      </li>
+                      <li>
+                        <a href="instructor.html">instructor 1</a>
+                      </li>
+                      <li>
+                        <a href="instructor2.html">instructor 2</a>
+                      </li>
+                      <li>
+                        <a href="instructor-details.html">instructor Single</a>
+                      </li>
+                      <li>
+                        <a href="event.html">Event</a>
+                      </li>
+                      <li>
+                        <a href="event-single.html">Event single</a>
+                      </li>
+                      <li>
+                        <a href="404.html">404</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Courses</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="courses.html">courses</a>
+                      </li>
+                      <li>
+                        <a href="courses-sidebar.html">courses Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="single-course.html">Single-course</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Blog</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="blog.html">Blog</a>
+                      </li>
+                      <li>
+                        <a href="blog-full.html">Full Width</a>
+                      </li>
+                      <li>
+                        <a href="blog-standard.html">Blog Standard</a>
+                      </li>
+                      <li>
+                        <a href="blog-single.html">Single Blog</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contacts</a>
+                  </li>
+                </ul>
+                <div class="lg:block hidden">
+                  <div
+                    class="border border-gray rounded-md h-[46px] modal-search"
+                  >
+                    <input
+                      type="text"
+                      class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0"
+                      placeholder="Search.."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="flex-none flex space-x-[18px]">
+                <button
+                  type="button"
+                  class="md:w-[56px] md:h-[56px] h-10 w-10 rounded bg-[#F8F8F8] flex flex-col items-center justify-center modal-trigger"
+                >
+                  <img src="assets/images/svg/search.svg" alt="" />
+                </button>
+                <div class="block lg:hidden">
+                  <button
+                    type="button"
+                    class="text-3xl md:w-[56px] h-10 w-10 md:h-[56px] rounded bg-[#F8F8F8] flex flex-col items-center justify-center menu-click"
+                  >
+                    <iconify-icon
+                      icon="cil:hamburger-menu"
+                      rotate="180deg"
+                    ></iconify-icon>
+                  </button>
+                </div>
+                <div class="hidden lg:block">
+                  <a href="#" class="btn btn-primary py-[15px] px-8"
+                    >Start Free Trial</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:hidden block mt-4">
+            <div class="border border-gray rounded-md h-[46px] modal-search">
+              <input
+                type="text"
+                class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0"
+                placeholder="Search.."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="openmobile-menu fixed top-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999]"
+    >
+      <div class="flex justify-between px-6 flex-none">
+        <a href="index.html" class="brand-logo flex-none mr-10">
+          <img src="assets/images/logo/logo.svg" alt="" />
+        </a>
+        <span class="text-3xl text-black cursor-pointer rt-mobile-menu-close">
+          <iconify-icon icon="fe:close"></iconify-icon>
+        </span>
+      </div>
+      <div class="mobile-menu mt-6 flex-1">
+        <ul class="menu-active-classes">
+          <li class="menu-item-has-children">
+            <a href="#">Home</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="index.html">Home One</a>
+              </li>
+              <li>
+                <a href="index2.html">Home Two</a>
+              </li>
+              <li>
+                <a href="index3.html">Home Three</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Pages</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="about.html">About 1</a>
+              </li>
+              <li>
+                <a href="about2.html">About 2</a>
+              </li>
+              <li>
+                <a href="instructor.html">instructor 1</a>
+              </li>
+              <li>
+                <a href="instructor2.html">instructor 2</a>
+              </li>
+              <li>
+                <a href="instructor-details.html">instructor Single</a>
+              </li>
+              <li>
+                <a href="event.html">Event</a>
+              </li>
+              <li>
+                <a href="event-single.html">Event single</a>
+              </li>
+              <li>
+                <a href="404.html">404</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Courses</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="courses.html">courses</a>
+              </li>
+              <li>
+                <a href="courses-sidebar.html">courses Sidebar</a>
+              </li>
+              <li>
+                <a href="single-course.html">Single-course</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Blog</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="blog.html">Blog</a>
+              </li>
+              <li>
+                <a href="blog-full.html">Full Width</a>
+              </li>
+              <li>
+                <a href="blog-standard.html">Blog Standard</a>
+              </li>
+              <li>
+                <a href="blog-single.html">Single Blog</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contact.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-none pb-4">
+        <div class="text-center text-black font-semibold mb-2">Follow Us</div>
+        <ul class="flex space-x-4 justify-center">
+          <li>
+            <a href="#" class="flex h-10 w-10">
+              <img src="assets/images/icon/fb.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex h-10 w-10">
+              <img src="assets/images/icon/tw.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex h-10 w-10">
+              <img src="assets/images/icon/pn.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex h-10 w-10">
+              <img src="assets/images/icon/ins.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat"
+    >
+      <div class="container text-center">
+        <h2>Blog Grid without Sidebar</h2>
+        <nav>
+          <ol class="flex items-center justify-center space-x-3">
+            <li class="breadcrumb-item"><a href="index.html">Pages </a></li>
+            <li class="breadcrumb-item">-</li>
+            <li class="text-primary">Blog Grid without Sidebar</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <div class="nav-tab-wrapper tabs section-padding">
+      <div class="container">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
+          <div
+            class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13"
+          >
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img
+                src="assets/images/all-img/blog-3.png"
+                alt=""
+                class="w-full h-full object-cover rounded-t-[8px]"
+              />
+              <span
+                class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
+                >Education</span
+              >
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>Admin</span>
+                </a>
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>Jan 29, 2022</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a
+                  href="blog-single.html"
+                  class="hover:text-primary transition duration-150"
+                >
+                  Professional Mobile Painting and Sculpting
+                </a>
+              </h4>
+              <a
+                href="blog-single.html"
+                class="text-black font-semibold hover:underline transition duration-150"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13"
+          >
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img
+                src="assets/images/all-img/blog-4.png"
+                alt=""
+                class="w-full h-full object-cover rounded-t-[8px]"
+              />
+              <span
+                class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
+                >Education</span
+              >
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>Admin</span>
+                </a>
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>Jan 29, 2022</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a
+                  href="blog-single.html"
+                  class="hover:text-primary transition duration-150"
+                >
+                  Professional Ceramic Moulding for Beginners
+                </a>
+              </h4>
+              <a
+                href="blog-single.html"
+                class="text-black font-semibold hover:underline transition duration-150"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13"
+          >
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img
+                src="assets/images/all-img/blog-5.png"
+                alt=""
+                class="w-full h-full object-cover rounded-t-[8px]"
+              />
+              <span
+                class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
+                >Education</span
+              >
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>Admin</span>
+                </a>
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>Jan 29, 2022</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a
+                  href="blog-single.html"
+                  class="hover:text-primary transition duration-150"
+                >
+                  Education Is About Create Leaders For Tomorrow
+                </a>
+              </h4>
+              <a
+                href="blog-single.html"
+                class="text-black font-semibold hover:underline transition duration-150"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13"
+          >
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img
+                src="assets/images/all-img/blog-6.png"
+                alt=""
+                class="w-full h-full object-cover rounded-t-[8px]"
+              />
+              <span
+                class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
+                >Education</span
+              >
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>Admin</span>
+                </a>
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>Jan 29, 2022</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a
+                  href="blog-single.html"
+                  class="hover:text-primary transition duration-150"
+                >
+                  Education Is About Create Leaders For Tomorrow
+                </a>
+              </h4>
+              <a
+                href="blog-single.html"
+                class="text-black font-semibold hover:underline transition duration-150"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13"
+          >
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img
+                src="assets/images/all-img/blog-7.png"
+                alt=""
+                class="w-full h-full object-cover rounded-t-[8px]"
+              />
+              <span
+                class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
+                >Education</span
+              >
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>Admin</span>
+                </a>
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>Jan 29, 2022</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a
+                  href="blog-single.html"
+                  class="hover:text-primary transition duration-150"
+                >
+                  Education Is About Create Leaders For Tomorrow
+                </a>
+              </h4>
+              <a
+                href="blog-single.html"
+                class="text-black font-semibold hover:underline transition duration-150"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13"
+          >
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img
+                src="assets/images/all-img/blog-8.png"
+                alt=""
+                class="w-full h-full object-cover rounded-t-[8px]"
+              />
+              <span
+                class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
+                >Education</span
+              >
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>Admin</span>
+                </a>
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>Jan 29, 2022</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a
+                  href="blog-single.html"
+                  class="hover:text-primary transition duration-150"
+                >
+                  Education Is About Create Leaders For Tomorrow
+                </a>
+              </h4>
+              <a
+                href="blog-single.html"
+                class="text-black font-semibold hover:underline transition duration-150"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13"
+          >
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img
+                src="assets/images/all-img/blog-9.png"
+                alt=""
+                class="w-full h-full object-cover rounded-t-[8px]"
+              />
+              <span
+                class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
+                >Education</span
+              >
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>Admin</span>
+                </a>
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>Jan 29, 2022</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a
+                  href="blog-single.html"
+                  class="hover:text-primary transition duration-150"
+                >
+                  Education Is About Create Leaders For Tomorrow
+                </a>
+              </h4>
+              <a
+                href="blog-single.html"
+                class="text-black font-semibold hover:underline transition duration-150"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13"
+          >
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img
+                src="assets/images/all-img/blog-10.png"
+                alt=""
+                class="w-full h-full object-cover rounded-t-[8px]"
+              />
+              <span
+                class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
+                >Education</span
+              >
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>Admin</span>
+                </a>
+                <a class="flex items-center space-x-2" href="blog-single.html">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>Jan 29, 2022</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a
+                  href="blog-single.html"
+                  class="hover:text-primary transition duration-150"
+                >
+                  Education Is About Create Leaders For Tomorrow
+                </a>
+              </h4>
+              <a
+                href="blog-single.html"
+                class="text-black font-semibold hover:underline transition duration-150"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="pagination mt-14">
+          <ul class="flex justify-center space-x-3">
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+              >
+                <iconify-icon
+                  icon="heroicons:chevron-double-left-20-solid"
+                  class="text-2xl"
+                ></iconify-icon>
+              </a>
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-primary text-white rounded font-semibold"
+                >1</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+                >2</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+                >3</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+                >4</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+              >
+                <iconify-icon
+                  icon="heroicons:chevron-double-right-20-solid"
+                  class="text-2xl"
+                ></iconify-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="bg-black bg-[url('../images/all-img/footer-bg-1.png')] bg-cover bg-center bg-no-repeat"
+    >
+      <div class="section-padding container">
+        <div class="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <div class="single-footer">
+            <div class="lg:max-w-[270px]">
+              <a href="#" class="mb-10 block">
+                <img src="assets/images/logo/footer-logo.svg" alt="" />
+              </a>
+              <p>
+                Lorem ipsum amet, consectetur adipiscing elit. Suspendis varius
+                enim eros elementum tristique. Duis cursus.
+              </p>
+              <ul class="flex space-x-4 pt-8">
+                <li>
+                  <a
+                    href="#"
+                    class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white"
+                  >
+                    <iconify-icon icon="bxl:facebook"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white"
+                  >
+                    <iconify-icon icon="bxl:twitter"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white"
+                  >
+                    <iconify-icon icon="bxl:linkedin"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white"
+                  >
+                    <iconify-icon icon="bxl:instagram"></iconify-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="single-footer">
+            <div class="flex space-x-[80px]">
+              <div class="flex-1 lg:flex-none">
+                <h4 class="mb-8 text-2xl font-bold text-white">Links</h4>
+                <ul class="list-item space-y-5">
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#">Courses</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex-1 lg:flex-none">
+                <h4 class="mb-8 text-2xl font-bold text-white">Legal</h4>
+                <ul class="list-item space-y-5">
+                  <li>
+                    <a href="#">Legal</a>
+                  </li>
+                  <li>
+                    <a href="#">Tearms of Use</a>
+                  </li>
+                  <li>
+                    <a href="#">Tearm & Condition</a>
+                  </li>
+                  <li>
+                    <a href="#">Payment Method</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="single-footer">
+            <h4 class="mb-8 text-2xl font-bold text-white">Newsletter</h4>
+            <div class="mb-8">
+              Join over
+              <span class="text-primary underline">68,000</span>
+              people getting our emails Lorem ipsum dolor sit amet consectet
+            </div>
+            <div
+              class="mb-4 flex items-center rounded-md bg-white py-[10px] pr-[10px] pl-6 shadow-e1"
+            >
+              <div class="flex-none">
+                <span class=" ">
+                  <img src="assets/images/icon/mail.svg" alt="" />
+                </span>
+              </div>
+              <div class="flex-1">
+                <input
+                  type="text"
+                  placeholder="Enter your mail"
+                  class="border-none focus:ring-0"
+                />
+              </div>
+            </div>
+            <button class="btn btn-primary block w-full text-center">
+              Subscribe Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container border-t border-white border-opacity-[0.1] py-8 text-center text-base"
+      >
+        &copy; Copyright 2022 | Rayan Template | All Rights Reserved -
+        <a href="https://market.mrcode.ir" target="_blank" style="color: red"
+          >MrCode Market</a
+        >
+      </div>
+    </footer>
+
+    <div class="rt-mobile-menu-overlay"></div>
+    <!-- scripts -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/rt-plugins.js"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
