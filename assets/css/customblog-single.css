@@ -14,6 +14,10 @@
   .flex.space-x-5 {
     gap: 1.25rem;
   }
+
+  .flex.space-y-6 {
+    gap: 1.25rem;
+  }
   
   /* برای فاصله‌های خاص */
   .flex.space-x-\[80px\] {
