@@ -1,0 +1,21 @@
+/* حل مشکل space-x در RTL */
+.flex.space-x-4 {
+    gap: 1rem;
+  }
+  
+  .flex.space-x-3 {
+    gap: 0.75rem;
+  }
+  
+  .flex.space-x-2 {
+    gap: 0.5rem;
+  }
+  
+  .flex.space-x-5 {
+    gap: 1.25rem;
+  }
+  
+  /* برای فاصله‌های خاص */
+  .flex.space-x-\[80px\] {
+    gap: 80px;
+  }
