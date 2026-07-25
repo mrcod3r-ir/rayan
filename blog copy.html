@@ -1,93 +1,20 @@
 <!doctype html>
-<html lang="fa" dir="rtl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="قالب آموزشی ریان - وبسایت دوره‌های آموزشی" />
-    <title>ریان - وبسایت آموزشی</title>
+    <meta name="description" content="" />
+    <title>Rayan Html Template</title>
     <link rel="icon" type="image/png" href="assets/images/logo/favicon.svg" />
     <link rel="stylesheet" href="assets/css/rt-plugins.css" />
     <link rel="stylesheet" href="assets/css/app.css" />
-    <link rel="stylesheet" href="assets/css/custom-blog.css" />
-    <style>
-      /* تنظیمات RTL و فونت فارسی */
-      body {
-        font-family: 'Vazir', 'IRANSans', 'Tahoma', sans-serif !important;
-        text-align: right;
-        direction: rtl;
-      }
-      .main-menu ul li a {
-        font-family: 'Vazir', 'IRANSans', sans-serif;
-      }
-      .breadcrumb-item {
-        font-family: 'Vazir', 'IRANSans', sans-serif;
-      }
-      h1, h2, h3, h4, h5, h6 {
-        font-family: 'Vazir', 'IRANSans', sans-serif;
-      }
-      .btn {
-        font-family: 'Vazir', 'IRANSans', sans-serif;
-      }
-      .course-content h4 a {
-        font-family: 'Vazir', 'IRANSans', sans-serif;
-      }
-      /* تنظیمات اضافی RTL */
-      .flex.space-x-3 {
-        margin-right: 0;
-        margin-left: 0.75rem;
-      }
-      .flex.space-x-2 {
-        margin-right: 0;
-        margin-left: 0.5rem;
-      }
-      .flex.space-x-5 {
-        margin-right: 0;
-        margin-left: 1.25rem;
-      }
-      .flex.space-x-4 {
-        margin-right: 0;
-        margin-left: 1rem;
-      }
-      .lg:mr-10 {
-        margin-left: 2.5rem;
-        margin-right: 0;
-      }
-      .xl:mr-74[px] {
-        margin-left: 74px;
-        margin-right: 0;
-      }
-      .mr-6 {
-        margin-left: 1.5rem;
-        margin-right: 0;
-      }
-      .absolute.left-6 {
-        left: auto;
-        right: 1.5rem;
-      }
-      .pl-6 {
-        padding-left: 0;
-        padding-right: 1.5rem;
-      }
-      .pr-10[px] {
-        padding-right: 0;
-        padding-left: 10px;
-      }
-      .rt-mobile-menu-close {
-        margin-right: auto;
-        margin-left: 0;
-      }
-      .mobile-menu ul li.menu-item-has-children > a::after {
-        margin-right: 8px;
-        margin-left: 0;
-      }
-    </style>
   </head>
 
   <body class="font-gilroy font-medium text-gray text-lg leading-[27px]">
-    <!-- [if IE] <p class="browserupgrade">
-        شما از مرورگر <strong>قدیمی</strong> استفاده می‌کنید. لطفاً
-        <a href="https://browsehappy.com/">مرورگر خود را به‌روز کنید</a> تا
-        تجربه بهتری داشته باشید.
+    <!-- [if IE]> <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
     </p> <![endif] -->
 
     <header class="site-header header-normal top-0 bg-white z-[9] rt-sticky">
@@ -96,27 +23,89 @@
           <div class="flex items-center justify-between flex-wrap">
             <a
               href="index.html"
-              class="brand-logo flex-none lg:ml-10 md:w-auto max-w-[120px]"
+              class="brand-logo flex-none lg:mr-10 md:w-auto max-w-[120px]"
             >
-              <img src="assets/images/logo/logo.svg" alt="ریان" />
-            </a>
+              <img src="assets/images/logo/logo.svg" alt=""
+            /></a>
             <div class="flex items-center flex-1">
-              <div class="flex-1 main-menu lg:relative xl:ml-[74px] ml-6">
-                <ul>
-                  <li>
-                    <a href="#">صفحه اصلی</a>
+              <div class="flex-1 main-menu lg:relative xl:mr-[74px] mr-6">
+                <ul class="menu-active-classes">
+                  <li class="menu-item-has-children">
+                    <a href="#">Home</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="index.html">Home One</a>
+                      </li>
+                      <li>
+                        <a href="index2.html">Home Two</a>
+                      </li>
+                      <li>
+                        <a href="index3.html">Home Three</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="about.html">About 1</a>
+                      </li>
+                      <li>
+                        <a href="about2.html">About 2</a>
+                      </li>
+                      <li>
+                        <a href="instructor.html">instructor 1</a>
+                      </li>
+                      <li>
+                        <a href="instructor2.html">instructor 2</a>
+                      </li>
+                      <li>
+                        <a href="instructor-details.html">instructor Single</a>
+                      </li>
+                      <li>
+                        <a href="event.html">Event</a>
+                      </li>
+                      <li>
+                        <a href="event-single.html">Event single</a>
+                      </li>
+                      <li>
+                        <a href="404.html">404</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Courses</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="courses.html">courses</a>
+                      </li>
+                      <li>
+                        <a href="courses-sidebar.html">courses Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="single-course.html">Single-course</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Blog</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="blog.html">Blog</a>
+                      </li>
+                      <li>
+                        <a href="blog-full.html">Full Width</a>
+                      </li>
+                      <li>
+                        <a href="blog-standard.html">Blog Standard</a>
+                      </li>
+                      <li>
+                        <a href="blog-single.html">Single Blog</a>
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    <a href="#">صفحات</a>
-                  </li>
-                  <li>
-                    <a href="#">دوره‌ها</a>
-                  </li>
-                  <li>
-                    <a href="#">وبلاگ</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">تماس</a>
+                    <a href="contact.html">Contacts</a>
                   </li>
                 </ul>
                 <div class="lg:block hidden">
@@ -126,7 +115,7 @@
                     <input
                       type="text"
                       class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0"
-                      placeholder="جستجو..."
+                      placeholder="Search.."
                     />
                   </div>
                 </div>
@@ -136,7 +125,7 @@
                   type="button"
                   class="md:w-[56px] md:h-[56px] h-10 w-10 rounded bg-[#F8F8F8] flex flex-col items-center justify-center modal-trigger"
                 >
-                  <img src="assets/images/svg/search.svg" alt="جستجو" />
+                  <img src="assets/images/svg/search.svg" alt="" />
                 </button>
                 <div class="block lg:hidden">
                   <button
@@ -150,7 +139,9 @@
                   </button>
                 </div>
                 <div class="hidden lg:block">
-                  <a href="#" class="btn btn-primary py-[15px] px-8">سفارش پروژه</a>
+                  <a href="#" class="btn btn-primary py-[15px] px-8"
+                    >Start Free Trial</a
+                  >
                 </div>
               </div>
             </div>
@@ -160,7 +151,7 @@
               <input
                 type="text"
                 class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0"
-                placeholder="جستجو..."
+                placeholder="Search.."
               />
             </div>
           </div>
@@ -171,8 +162,8 @@
       class="openmobile-menu fixed top-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999]"
     >
       <div class="flex justify-between px-6 flex-none">
-        <a href="index.html" class="brand-logo flex-none ml-10">
-          <img src="assets/images/logo/logo.svg" alt="ریان" />
+        <a href="index.html" class="brand-logo flex-none mr-10">
+          <img src="assets/images/logo/logo.svg" alt="" />
         </a>
         <span class="text-3xl text-black cursor-pointer rt-mobile-menu-close">
           <iconify-icon icon="fe:close"></iconify-icon>
@@ -181,105 +172,105 @@
       <div class="mobile-menu mt-6 flex-1">
         <ul class="menu-active-classes">
           <li class="menu-item-has-children">
-            <a href="#">خانه</a>
+            <a href="#">Home</a>
             <ul class="sub-menu">
               <li>
-                <a href="index.html">خانه یک</a>
+                <a href="index.html">Home One</a>
               </li>
               <li>
-                <a href="index2.html">خانه دو</a>
+                <a href="index2.html">Home Two</a>
               </li>
               <li>
-                <a href="index3.html">خانه سه</a>
+                <a href="index3.html">Home Three</a>
               </li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="#">صفحات</a>
+            <a href="#">Pages</a>
             <ul class="sub-menu">
               <li>
-                <a href="about.html">درباره ما ۱</a>
+                <a href="about.html">About 1</a>
               </li>
               <li>
-                <a href="about2.html">درباره ما ۲</a>
+                <a href="about2.html">About 2</a>
               </li>
               <li>
-                <a href="instructor.html">مدرسین ۱</a>
+                <a href="instructor.html">instructor 1</a>
               </li>
               <li>
-                <a href="instructor2.html">مدرسین ۲</a>
+                <a href="instructor2.html">instructor 2</a>
               </li>
               <li>
-                <a href="instructor-details.html">نمایه مدرس</a>
+                <a href="instructor-details.html">instructor Single</a>
               </li>
               <li>
-                <a href="event.html">رویدادها</a>
+                <a href="event.html">Event</a>
               </li>
               <li>
-                <a href="event-single.html">رویداد تکی</a>
+                <a href="event-single.html">Event single</a>
               </li>
               <li>
-                <a href="404.html">۴۰۴</a>
+                <a href="404.html">404</a>
               </li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="#">دوره‌ها</a>
+            <a href="#">Courses</a>
             <ul class="sub-menu">
               <li>
-                <a href="courses.html">دوره‌ها</a>
+                <a href="courses.html">courses</a>
               </li>
               <li>
-                <a href="courses-sidebar.html">دوره‌ها با سایدبار</a>
+                <a href="courses-sidebar.html">courses Sidebar</a>
               </li>
               <li>
-                <a href="single-course.html">دوره تکی</a>
+                <a href="single-course.html">Single-course</a>
               </li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="#">وبلاگ</a>
+            <a href="#">Blog</a>
             <ul class="sub-menu">
               <li>
-                <a href="blog.html">وبلاگ</a>
+                <a href="blog.html">Blog</a>
               </li>
               <li>
-                <a href="blog-full.html">تمام‌عرض</a>
+                <a href="blog-full.html">Full Width</a>
               </li>
               <li>
-                <a href="blog-standard.html">وبلاگ استاندارد</a>
+                <a href="blog-standard.html">Blog Standard</a>
               </li>
               <li>
-                <a href="blog-single.html">پست تکی</a>
+                <a href="blog-single.html">Single Blog</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="contact.html">تماس با ما</a>
+            <a href="contact.html">Contacts</a>
           </li>
         </ul>
       </div>
       <div class="flex-none pb-4">
-        <div class="text-center text-black font-semibold mb-2">ما را دنبال کنید</div>
+        <div class="text-center text-black font-semibold mb-2">Follow Us</div>
         <ul class="flex space-x-4 justify-center">
           <li>
             <a href="#" class="flex h-10 w-10">
-              <img src="assets/images/icon/fb.svg" alt="فیسبوک" />
+              <img src="assets/images/icon/fb.svg" alt="" />
             </a>
           </li>
           <li>
             <a href="#" class="flex h-10 w-10">
-              <img src="assets/images/icon/tw.svg" alt="توییتر" />
+              <img src="assets/images/icon/tw.svg" alt="" />
             </a>
           </li>
           <li>
             <a href="#" class="flex h-10 w-10">
-              <img src="assets/images/icon/pn.svg" alt="پینترست" />
+              <img src="assets/images/icon/pn.svg" alt="" />
             </a>
           </li>
           <li>
             <a href="#" class="flex h-10 w-10">
-              <img src="assets/images/icon/ins.svg" alt="اینستاگرام" />
+              <img src="assets/images/icon/ins.svg" alt="" />
             </a>
           </li>
         </ul>
@@ -289,12 +280,12 @@
       class="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat"
     >
       <div class="container text-center">
-        <h2>وبلاگ گرید بدون سایدبار</h2>
+        <h2>Blog Grid without Sidebar</h2>
         <nav>
           <ol class="flex items-center justify-center space-x-3">
-            <li class="breadcrumb-item"><a href="index.html">صفحات </a></li>
+            <li class="breadcrumb-item"><a href="index.html">Pages </a></li>
             <li class="breadcrumb-item">-</li>
-            <li class="text-primary">وبلاگ گرید بدون سایدبار</li>
+            <li class="text-primary">Blog Grid without Sidebar</li>
           </ol>
         </nav>
       </div>
@@ -314,18 +305,18 @@
               />
               <span
                 class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
-                >آموزشی</span
+                >Education</span
               >
             </div>
             <div class="course-content p-8">
               <div class="flex lg:space-x-10 space-x-5 mb-5">
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/admin.svg" alt="" />
-                  <span>مدیر</span>
+                  <span>Admin</span>
                 </a>
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/calender.svg" alt="" />
-                  <span>۲۹ دی ۱۴۰۰</span>
+                  <span>Jan 29, 2022</span>
                 </a>
               </div>
               <h4 class="text-xl mb-5 font-bold">
@@ -333,13 +324,13 @@
                   href="blog-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  نقاشی و مجسمه‌سازی حرفه‌ای سیار
+                  Professional Mobile Painting and Sculpting
                 </a>
               </h4>
               <a
                 href="blog-single.html"
                 class="text-black font-semibold hover:underline transition duration-150"
-                >ادامه مطلب</a
+                >Read More</a
               >
             </div>
           </div>
@@ -355,18 +346,18 @@
               />
               <span
                 class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
-                >آموزشی</span
+                >Education</span
               >
             </div>
             <div class="course-content p-8">
               <div class="flex lg:space-x-10 space-x-5 mb-5">
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/admin.svg" alt="" />
-                  <span>مدیر</span>
+                  <span>Admin</span>
                 </a>
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/calender.svg" alt="" />
-                  <span>۲۹ دی ۱۴۰۰</span>
+                  <span>Jan 29, 2022</span>
                 </a>
               </div>
               <h4 class="text-xl mb-5 font-bold">
@@ -374,13 +365,13 @@
                   href="blog-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  قالب‌گیری سرامیک حرفه‌ای برای مبتدیان
+                  Professional Ceramic Moulding for Beginners
                 </a>
               </h4>
               <a
                 href="blog-single.html"
                 class="text-black font-semibold hover:underline transition duration-150"
-                >ادامه مطلب</a
+                >Read More</a
               >
             </div>
           </div>
@@ -396,18 +387,18 @@
               />
               <span
                 class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
-                >آموزشی</span
+                >Education</span
               >
             </div>
             <div class="course-content p-8">
               <div class="flex lg:space-x-10 space-x-5 mb-5">
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/admin.svg" alt="" />
-                  <span>مدیر</span>
+                  <span>Admin</span>
                 </a>
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/calender.svg" alt="" />
-                  <span>۲۹ دی ۱۴۰۰</span>
+                  <span>Jan 29, 2022</span>
                 </a>
               </div>
               <h4 class="text-xl mb-5 font-bold">
@@ -415,13 +406,13 @@
                   href="blog-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  آموزش یعنی ساختن رهبران فردا
+                  Education Is About Create Leaders For Tomorrow
                 </a>
               </h4>
               <a
                 href="blog-single.html"
                 class="text-black font-semibold hover:underline transition duration-150"
-                >ادامه مطلب</a
+                >Read More</a
               >
             </div>
           </div>
@@ -437,18 +428,18 @@
               />
               <span
                 class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
-                >آموزشی</span
+                >Education</span
               >
             </div>
             <div class="course-content p-8">
               <div class="flex lg:space-x-10 space-x-5 mb-5">
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/admin.svg" alt="" />
-                  <span>مدیر</span>
+                  <span>Admin</span>
                 </a>
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/calender.svg" alt="" />
-                  <span>۲۹ دی ۱۴۰۰</span>
+                  <span>Jan 29, 2022</span>
                 </a>
               </div>
               <h4 class="text-xl mb-5 font-bold">
@@ -456,13 +447,13 @@
                   href="blog-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  آموزش یعنی ساختن رهبران فردا
+                  Education Is About Create Leaders For Tomorrow
                 </a>
               </h4>
               <a
                 href="blog-single.html"
                 class="text-black font-semibold hover:underline transition duration-150"
-                >ادامه مطلب</a
+                >Read More</a
               >
             </div>
           </div>
@@ -478,18 +469,18 @@
               />
               <span
                 class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
-                >آموزشی</span
+                >Education</span
               >
             </div>
             <div class="course-content p-8">
               <div class="flex lg:space-x-10 space-x-5 mb-5">
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/admin.svg" alt="" />
-                  <span>مدیر</span>
+                  <span>Admin</span>
                 </a>
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/calender.svg" alt="" />
-                  <span>۲۹ دی ۱۴۰۰</span>
+                  <span>Jan 29, 2022</span>
                 </a>
               </div>
               <h4 class="text-xl mb-5 font-bold">
@@ -497,13 +488,13 @@
                   href="blog-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  آموزش یعنی ساختن رهبران فردا
+                  Education Is About Create Leaders For Tomorrow
                 </a>
               </h4>
               <a
                 href="blog-single.html"
                 class="text-black font-semibold hover:underline transition duration-150"
-                >ادامه مطلب</a
+                >Read More</a
               >
             </div>
           </div>
@@ -519,18 +510,18 @@
               />
               <span
                 class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
-                >آموزشی</span
+                >Education</span
               >
             </div>
             <div class="course-content p-8">
               <div class="flex lg:space-x-10 space-x-5 mb-5">
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/admin.svg" alt="" />
-                  <span>مدیر</span>
+                  <span>Admin</span>
                 </a>
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/calender.svg" alt="" />
-                  <span>۲۹ دی ۱۴۰۰</span>
+                  <span>Jan 29, 2022</span>
                 </a>
               </div>
               <h4 class="text-xl mb-5 font-bold">
@@ -538,13 +529,13 @@
                   href="blog-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  آموزش یعنی ساختن رهبران فردا
+                  Education Is About Create Leaders For Tomorrow
                 </a>
               </h4>
               <a
                 href="blog-single.html"
                 class="text-black font-semibold hover:underline transition duration-150"
-                >ادامه مطلب</a
+                >Read More</a
               >
             </div>
           </div>
@@ -560,18 +551,18 @@
               />
               <span
                 class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
-                >آموزشی</span
+                >Education</span
               >
             </div>
             <div class="course-content p-8">
               <div class="flex lg:space-x-10 space-x-5 mb-5">
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/admin.svg" alt="" />
-                  <span>مدیر</span>
+                  <span>Admin</span>
                 </a>
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/calender.svg" alt="" />
-                  <span>۲۹ دی ۱۴۰۰</span>
+                  <span>Jan 29, 2022</span>
                 </a>
               </div>
               <h4 class="text-xl mb-5 font-bold">
@@ -579,13 +570,13 @@
                   href="blog-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  آموزش یعنی ساختن رهبران فردا
+                  Education Is About Create Leaders For Tomorrow
                 </a>
               </h4>
               <a
                 href="blog-single.html"
                 class="text-black font-semibold hover:underline transition duration-150"
-                >ادامه مطلب</a
+                >Read More</a
               >
             </div>
           </div>
@@ -601,18 +592,18 @@
               />
               <span
                 class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6"
-                >آموزشی</span
+                >Education</span
               >
             </div>
             <div class="course-content p-8">
               <div class="flex lg:space-x-10 space-x-5 mb-5">
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/admin.svg" alt="" />
-                  <span>مدیر</span>
+                  <span>Admin</span>
                 </a>
                 <a class="flex items-center space-x-2" href="blog-single.html">
                   <img src="assets/images/svg/calender.svg" alt="" />
-                  <span>۲۹ دی ۱۴۰۰</span>
+                  <span>Jan 29, 2022</span>
                 </a>
               </div>
               <h4 class="text-xl mb-5 font-bold">
@@ -620,13 +611,13 @@
                   href="blog-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  آموزش یعنی ساختن رهبران فردا
+                  Education Is About Create Leaders For Tomorrow
                 </a>
               </h4>
               <a
                 href="blog-single.html"
                 class="text-black font-semibold hover:underline transition duration-150"
-                >ادامه مطلب</a
+                >Read More</a
               >
             </div>
           </div>
@@ -639,7 +630,7 @@
                 class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
               >
                 <iconify-icon
-                  icon="heroicons:chevron-double-right-20-solid"
+                  icon="heroicons:chevron-double-left-20-solid"
                   class="text-2xl"
                 ></iconify-icon>
               </a>
@@ -648,28 +639,28 @@
               <a
                 href="#"
                 class="flex w-12 h-12 flex-col items-center justify-center bg-primary text-white rounded font-semibold"
-                >۱</a
+                >1</a
               >
             </li>
             <li class="inline-flex">
               <a
                 href="#"
                 class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
-                >۲</a
+                >2</a
               >
             </li>
             <li class="inline-flex">
               <a
                 href="#"
                 class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
-                >۳</a
+                >3</a
               >
             </li>
             <li class="inline-flex">
               <a
                 href="#"
                 class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
-                >۴</a
+                >4</a
               >
             </li>
             <li class="inline-flex">
@@ -678,7 +669,7 @@
                 class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
               >
                 <iconify-icon
-                  icon="heroicons:chevron-double-left-20-solid"
+                  icon="heroicons:chevron-double-right-20-solid"
                   class="text-2xl"
                 ></iconify-icon>
               </a>
@@ -695,10 +686,11 @@
           <div class="single-footer">
             <div class="lg:max-w-[270px]">
               <a href="#" class="mb-10 block">
-                <img src="assets/images/logo/footer-logo.svg" alt="ریان" />
+                <img src="assets/images/logo/footer-logo.svg" alt="" />
               </a>
               <p>
-                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+                Lorem ipsum amet, consectetur adipiscing elit. Suspendis varius
+                enim eros elementum tristique. Duis cursus.
               </p>
               <ul class="flex space-x-4 pt-8">
                 <li>
@@ -739,77 +731,78 @@
           <div class="single-footer">
             <div class="flex space-x-[80px]">
               <div class="flex-1 lg:flex-none">
-                <h4 class="mb-8 text-2xl font-bold text-white">لینک‌ها</h4>
+                <h4 class="mb-8 text-2xl font-bold text-white">Links</h4>
                 <ul class="list-item space-y-5">
                   <li>
-                    <a href="#">خانه</a>
+                    <a href="#">Home</a>
                   </li>
                   <li>
-                    <a href="#">درباره ما</a>
+                    <a href="#">About Us</a>
                   </li>
                   <li>
-                    <a href="#">قیمت‌ها</a>
+                    <a href="#">Pricing</a>
                   </li>
                   <li>
-                    <a href="#">دوره‌ها</a>
+                    <a href="#">Courses</a>
                   </li>
                   <li>
-                    <a href="#">تماس با ما</a>
+                    <a href="#">Contact Us</a>
                   </li>
                   <li>
-                    <a href="#">وبلاگ</a>
+                    <a href="#">Blog</a>
                   </li>
                 </ul>
               </div>
               <div class="flex-1 lg:flex-none">
-                <h4 class="mb-8 text-2xl font-bold text-white">قوانین</h4>
+                <h4 class="mb-8 text-2xl font-bold text-white">Legal</h4>
                 <ul class="list-item space-y-5">
                   <li>
-                    <a href="#">قوانین</a>
+                    <a href="#">Legal</a>
                   </li>
                   <li>
-                    <a href="#">شرایط استفاده</a>
+                    <a href="#">Tearms of Use</a>
                   </li>
                   <li>
-                    <a href="#">شرایط و ضوابط</a>
+                    <a href="#">Tearm & Condition</a>
                   </li>
                   <li>
-                    <a href="#">روش‌های پرداخت</a>
+                    <a href="#">Payment Method</a>
                   </li>
                   <li>
-                    <a href="#">حریم خصوصی</a>
+                    <a href="#">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="#">حریم خصوصی</a>
+                    <a href="#">Privacy Policy</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="single-footer">
-            <h4 class="mb-8 text-2xl font-bold text-white">خبرنامه</h4>
+            <h4 class="mb-8 text-2xl font-bold text-white">Newsletter</h4>
             <div class="mb-8">
-              به جمع بیش از <span class="text-primary underline">۶۸,۰۰۰</span>
-              نفری بپیوندید که ایمیل‌های ما را دریافت می‌کنند. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+              Join over
+              <span class="text-primary underline">68,000</span>
+              people getting our emails Lorem ipsum dolor sit amet consectet
             </div>
             <div
               class="mb-4 flex items-center rounded-md bg-white py-[10px] pr-[10px] pl-6 shadow-e1"
             >
               <div class="flex-none">
                 <span class=" ">
-                  <img src="assets/images/icon/mail.svg" alt="ایمیل" />
+                  <img src="assets/images/icon/mail.svg" alt="" />
                 </span>
               </div>
               <div class="flex-1">
                 <input
                   type="text"
-                  placeholder="ایمیل خود را وارد کنید"
+                  placeholder="Enter your mail"
                   class="border-none focus:ring-0"
                 />
               </div>
             </div>
             <button class="btn btn-primary block w-full text-center">
-              عضویت
+              Subscribe Now
             </button>
           </div>
         </div>
@@ -817,13 +810,20 @@
       <div
         class="container border-t border-white border-opacity-[0.1] py-8 text-center text-base"
       >
-        &copy; تمامی حقوق محفوظ است ۱۴۰۰ | قالب ریان | 
+        &copy; Copyright 2022 | Rayan Template | All Rights Reserved -
         <a href="https://market.mrcode.ir" target="_blank" style="color: red"
-          >مرکز قالب‌های آموزشی</a
+          >MrCode Market</a
         >
       </div>
     </footer>
 
     <div class="rt-mobile-menu-overlay"></div>
     <!-- scripts -->
-    <script src="assets/js/popper.min.js">
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/rt-plugins.js"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
