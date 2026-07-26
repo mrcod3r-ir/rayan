@@ -3134,26 +3134,15 @@ ul ul > li.menu-item-has-children:hover > a:after {
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
-/* وقتی موس روی دکمه می‌رود، لیست را نشان بده */
-.hover-btn:hover + .hover-target,
-.hover-btn:focus + .hover-target {
-  opacity: 1;
-  visibility: visible;
-}
 
-/* همچنین وقتی موس روی خود لیست باشد، مخفی نشود */
-.hover-target:hover {
-  opacity: 1;
-  visibility: visible;
-}
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-[dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 1;
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
