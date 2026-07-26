@@ -3134,17 +3134,32 @@ ul ul > li.menu-item-has-children:hover > a:after {
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
-/* وقتی موس روی دکمه می‌رود، لیست را نشان بده */
+
 .hover-btn:hover + .hover-target,
 .hover-btn:focus + .hover-target {
   opacity: 1;
   visibility: visible;
 }
 
-/* همچنین وقتی موس روی خود لیست باشد، مخفی نشود */
 .hover-target:hover {
   opacity: 1;
   visibility: visible;
+}
+/* اضافه کردن به فایل CSS */
+.grid-item .block {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-item .course-thumb {
+  flex-shrink: 0;
+}
+
+.grid-item .course-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
