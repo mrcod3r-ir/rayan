@@ -87,66 +87,52 @@
 })(jQuery);
 
 
-/* =========================================
-   TESTIMONIAL SWIPER (نسخه درست)
-========================================= */
-
 document.addEventListener('DOMContentLoaded', function () {
 
-  /* اسلایدر عکس */
-  const imageSlider = new Swiper('.testimonial-image-slider', {
 
-    loop: true,
-    speed: 700,
-    effect: 'fade',
+const imageSlider = new Swiper('.testimonial-image-slider', {
 
-    fadeEffect: {
-      crossFade: true
-    },
+loop:true,
 
-    allowTouchMove: false
+speed:700,
 
-  });
+effect:'fade',
 
-  /* اسلایدر متن */
-  const textSlider = new Swiper('.testimonial-text-slider', {
+fadeEffect:{
+crossFade:true
+},
 
-    loop: true,
-    speed: 700,
-    autoHeight: true,
-
-    navigation: {
-      nextEl: '.testimonial-next',
-      prevEl: '.testimonial-prev'
-    }
-
-  });
-
-  /* اتصال دو اسلایدر */
-  imageSlider.controller.control = textSlider;
-  textSlider.controller.control = imageSlider;
+allowTouchMove:false
 
 });
 
-document.addEventListener("DOMContentLoaded", function () {
 
-    const testimonial = new Swiper(".slider-for", {
 
-        slidesPerView:1,
+const textSlider = new Swiper('.testimonial-text-slider', {
 
-        spaceBetween:30,
+loop:true,
 
-        loop:true,
+speed:700,
 
-        speed:700,
+autoHeight:true,
 
-        autoHeight:true,
 
-        navigation:{
-            nextEl:".testimonial-next",
-            prevEl:".testimonial-prev"
-        }
+navigation:{
 
-    });
+nextEl:'.testimonial-next',
+
+prevEl:'.testimonial-prev'
+
+}
+
+});
+
+
+
+imageSlider.controller.control = textSlider;
+
+textSlider.controller.control = imageSlider;
+
+
 
 });
