@@ -231,11 +231,6 @@ html {
   padding-left: 0;
 }
 
-[dir="rtl"] .pl-6 {
-  padding-left: 1.5rem;
-  padding-right: 0;
-}
-
 .hover-btn,
 .hover-target {
   transition: all 0.2s ease-in-out;
@@ -447,4 +442,8 @@ html {
 [dir="rtl"] .grid-item .course-content iconify-icon {
     margin-right: .5rem;
     margin-left: 0;
+}
+.fd{
+  flex-direction: row-reverse;
+  direction: ltr;
 }
