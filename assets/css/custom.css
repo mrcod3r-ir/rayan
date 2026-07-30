@@ -415,3 +415,36 @@ html {
         margin-left: 0;
     }
 }
+.grid-item .course-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 150px;
+}
+.course-content{
+  background-color: #fff;
+}
+.grid-item .course-content a {
+    width: fit-content;
+    position: relative;
+}
+
+.grid-item .course-content a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background: #FF6B6B;
+    transition: .3s;
+}
+
+.grid-item .course-content a:hover::after {
+    width: 100%;
+}
+
+[dir="rtl"] .grid-item .course-content iconify-icon {
+    margin-right: .5rem;
+    margin-left: 0;
+}
