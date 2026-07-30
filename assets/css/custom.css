@@ -5,3 +5,7 @@ html {
 .left-\[-60px\] {
   left: -60px;
 }
+/* custom style for RTL/Project */
+#mrglft{
+  margin-left: 0.75rem;
+}
