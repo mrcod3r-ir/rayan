@@ -443,7 +443,3 @@ html {
     margin-right: .5rem;
     margin-left: 0;
 }
-.fd{
-  flex-direction: row-reverse;
-  direction: ltr;
-}
