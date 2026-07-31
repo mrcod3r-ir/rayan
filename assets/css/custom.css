@@ -5,7 +5,10 @@ html {
 .left-\[-60px\] {
   left: -60px;
 }
-
+/* custom style for RTL/Project */
+#mrglft{
+  margin-left: 0.75rem;
+}
 
 .hover-btn:hover + .hover-target,
 .hover-btn:focus + .hover-target {

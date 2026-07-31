@@ -1,146 +1,74 @@
 <!doctype html>
-<html lang="en">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
-    <title>Rayan Html Template</title>
+    <title>پروژه های تیم رایان</title>
     <link rel="icon" type="image/png" href="assets/images/logo/favicon.svg" />
     <link rel="stylesheet" href="assets/css/rt-plugins.css" />
     <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
   </head>
 
-  <body class="font-gilroy font-medium text-gray text-lg leading-[27px]">
-    <!-- [if IE]> <p class="browserupgrade">
+  <body class="font-medium text-gray text-lg leading-[27px]">
+    <!--[if IE]>
+      <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
         your experience and security.
-    </p> <![endif] -->
+      </p>
+    <![endif]-->
 
+    <!-- -------------header----------- -->
     <header class="site-header header-normal top-0 bg-white z-[9] rt-sticky">
       <div class="main-header py-8">
         <div class="container">
           <div class="flex items-center justify-between flex-wrap">
             <a
               href="index.html"
-              class="brand-logo flex-none lg:mr-10 md:w-auto max-w-[120px]"
+              class="brand-logo flex-none lg:ml-10 md:w-auto max-w-[120px]"
             >
-              <img src="assets/images/logo/logo.svg" alt=""
+              <img src="assets/images/logo/logo.svg" alt="لوگو رایان"
             /></a>
             <div class="flex items-center flex-1">
-              <div class="flex-1 main-menu lg:relative xl:mr-[74px] mr-6">
-                <ul class="menu-active-classes">
-                  <li class="menu-item-has-children">
-                    <a href="#">Home</a>
-                    <ul class="sub-menu">
-                      <li>
-                        <a href="index.html">Home One</a>
-                      </li>
-                      <li>
-                        <a href="index2.html">Home Two</a>
-                      </li>
-                      <li>
-                        <a href="index3.html">Home Three</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="#">Pages</a>
-                    <ul class="sub-menu">
-                      <li>
-                        <a href="about.html">About 1</a>
-                      </li>
-                      <li>
-                        <a href="about2.html">About 2</a>
-                      </li>
-                      <li>
-                        <a href="instructor.html">instructor 1</a>
-                      </li>
-                      <li>
-                        <a href="instructor2.html">instructor 2</a>
-                      </li>
-                      <li>
-                        <a href="instructor-details.html">instructor Single</a>
-                      </li>
-                      <li>
-                        <a href="event.html">Event</a>
-                      </li>
-                      <li>
-                        <a href="event-single.html">Event single</a>
-                      </li>
-                      <li>
-                        <a href="404.html">404</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="#">Courses</a>
-                    <ul class="sub-menu">
-                      <li>
-                        <a href="courses.html">courses</a>
-                      </li>
-                      <li>
-                        <a href="courses-sidebar.html">courses Sidebar</a>
-                      </li>
-                      <li>
-                        <a href="single-course.html">Single-course</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="#">Blog</a>
-                    <ul class="sub-menu">
-                      <li>
-                        <a href="blog.html">Blog</a>
-                      </li>
-                      <li>
-                        <a href="blog-full.html">Full Width</a>
-                      </li>
-                      <li>
-                        <a href="blog-standard.html">Blog Standard</a>
-                      </li>
-                      <li>
-                        <a href="blog-single.html">Single Blog</a>
-                      </li>
-                    </ul>
+              <div class="flex-1 main-menu lg:relative xl:ml-[74px] ml-6">
+                <ul>
+                  <li>
+                    <a href="index.html">صفحه اصلی</a>
                   </li>
                   <li>
-                    <a href="contact.html">Contacts</a>
+                    <a href="projects.html">پروژه‌ها</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">وبلاگ</a>
+                  </li>
+                  <li>
+                    <a href="about.html">درباره ما</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">تماس</a>
                   </li>
                 </ul>
                 <div class="lg:block hidden">
-                  <div
-                    class="border border-gray rounded-md h-[46px] modal-search"
-                  >
-                    <input
-                      type="text"
-                      class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0"
-                      placeholder="Search.."
-                    />
+                  <div class="border border-gray rounded-md h-[46px] modal-search">
+                    <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجو..." />
                   </div>
                 </div>
               </div>
               <div class="flex-none flex space-x-[18px]">
-                <button
-                  type="button"
-                  class="md:w-[56px] md:h-[56px] h-10 w-10 rounded bg-[#F8F8F8] flex flex-col items-center justify-center modal-trigger"
-                >
-                  <img src="assets/images/svg/search.svg" alt="" />
+                <button type="button" class="md:w-[56px] md:h-[56px] h-10 w-10 ml-4 rounded bg-[#F8F8F8] flex flex-col items-center justify-center modal-trigger">
+                  <img src="assets/images/svg/search.svg" alt="جستجو" />
                 </button>
                 <div class="block lg:hidden">
-                  <button
-                    type="button"
-                    class="text-3xl md:w-[56px] h-10 w-10 md:h-[56px] rounded bg-[#F8F8F8] flex flex-col items-center justify-center menu-click"
-                  >
-                    <iconify-icon
-                      icon="cil:hamburger-menu"
-                      rotate="180deg"
-                    ></iconify-icon>
+                  <button type="button" class="text-3xl md:w-[56px] ml-4 h-10 w-10 md:h-[56px] rounded bg-[#F8F8F8] flex flex-col items-center justify-center menu-click">
+                    <iconify-icon icon="cil:hamburger-menu" rotate="180deg"></iconify-icon>
                   </button>
                 </div>
                 <div class="hidden lg:block">
-                  <a href="#" class="btn btn-primary py-[15px] px-8"
-                    >Start Free Trial</a
+                  <a href="order.html" class="btn btn-primary py-[15px] px-8"
+                    >سفارش پروژه</a
                   >
                 </div>
               </div>
@@ -148,21 +76,20 @@
           </div>
           <div class="lg:hidden block mt-4">
             <div class="border border-gray rounded-md h-[46px] modal-search">
-              <input
-                type="text"
-                class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0"
-                placeholder="Search.."
-              />
+              <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجو..." />
             </div>
           </div>
         </div>
       </div>
     </header>
+    <!-- -------------header----------- -->
+
+    <!-- ----------mobile-menu---------- -->
     <div
       class="openmobile-menu fixed top-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999]"
     >
       <div class="flex justify-between px-6 flex-none">
-        <a href="index.html" class="brand-logo flex-none mr-10">
+        <a href="index.html" class="brand-logo flex-none ml-10">
           <img src="assets/images/logo/logo.svg" alt="" />
         </a>
         <span class="text-3xl text-black cursor-pointer rt-mobile-menu-close">
@@ -172,86 +99,86 @@
       <div class="mobile-menu mt-6 flex-1">
         <ul class="menu-active-classes">
           <li class="menu-item-has-children">
-            <a href="#">Home</a>
+            <a href="#">خانه</a>
             <ul class="sub-menu">
               <li>
-                <a href="index.html">Home One</a>
+                <a href="index.html">خانه یک</a>
               </li>
               <li>
-                <a href="index2.html">Home Two</a>
+                <a href="index2.html">خانه دو</a>
               </li>
               <li>
-                <a href="index3.html">Home Three</a>
+                <a href="index3.html">خانه سه</a>
               </li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="#">Pages</a>
+            <a href="#">صفحات</a>
             <ul class="sub-menu">
               <li>
-                <a href="about.html">About 1</a>
+                <a href="about.html">درباره ۱</a>
               </li>
               <li>
-                <a href="about2.html">About 2</a>
+                <a href="about2.html">درباره ۲</a>
               </li>
               <li>
-                <a href="instructor.html">instructor 1</a>
+                <a href="instructor.html">مدرس ۱</a>
               </li>
               <li>
-                <a href="instructor2.html">instructor 2</a>
+                <a href="instructor2.html">مدرس ۲</a>
               </li>
               <li>
-                <a href="instructor-details.html">instructor Single</a>
+                <a href="instructor-details.html">نمایه مدرس</a>
               </li>
               <li>
-                <a href="event.html">Event</a>
+                <a href="event.html">رویدادها</a>
               </li>
               <li>
-                <a href="event-single.html">Event single</a>
+                <a href="event-single.html">رویداد تکی</a>
               </li>
               <li>
-                <a href="404.html">404</a>
+                <a href="404.html">۴۰۴</a>
               </li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="#">Courses</a>
+            <a href="#">دوره‌ها</a>
             <ul class="sub-menu">
               <li>
-                <a href="courses.html">courses</a>
+                <a href="courses.html">دوره‌ها</a>
               </li>
               <li>
-                <a href="courses-sidebar.html">courses Sidebar</a>
+                <a href="courses-sidebar.html">دوره‌ها با نوار کناری</a>
               </li>
               <li>
-                <a href="single-course.html">Single-course</a>
+                <a href="single-course.html">دوره تکی</a>
               </li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="#">Blog</a>
+            <a href="#">وبلاگ</a>
             <ul class="sub-menu">
               <li>
-                <a href="blog.html">Blog</a>
+                <a href="blog.html">وبلاگ</a>
               </li>
               <li>
-                <a href="blog-full.html">Full Width</a>
+                <a href="blog-full.html">تمام عرض</a>
               </li>
               <li>
-                <a href="blog-standard.html">Blog Standard</a>
+                <a href="blog-standard.html">وبلاگ استاندارد</a>
               </li>
               <li>
-                <a href="blog-single.html">Single Blog</a>
+                <a href="blog-single.html">مطلب تکی</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="contact.html">Contacts</a>
+            <a href="contact.html">تماس</a>
           </li>
         </ul>
       </div>
       <div class="flex-none pb-4">
-        <div class="text-center text-black font-semibold mb-2">Follow Us</div>
+        <div class="text-center text-black font-semibold mb-2">ما را دنبال کنید</div>
         <ul class="flex space-x-4 justify-center">
           <li>
             <a href="#" class="flex h-10 w-10">
@@ -276,41 +203,45 @@
         </ul>
       </div>
     </div>
+    <!-- ----------mobile-menu----------- -->
+
+    <!-- ----------breadcrumb---------- -->
     <div
       class="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat"
     >
       <div class="container text-center">
-        <h2>Events</h2>
+        <h2>پروژه ها</h2>
         <nav>
           <ol class="flex items-center justify-center space-x-3">
-            <li class="breadcrumb-item"><a href="index.html">Pages </a></li>
+            <li class="breadcrumb-item ml-2"><a href="index.html">صفحه اصلی</a></li>
             <li class="breadcrumb-item">-</li>
-            <li class="text-primary">Events</li>
+            <li class="text-primary">پروژه ها</li>
           </ol>
         </nav>
       </div>
     </div>
+    <!-- ----------breadcrumb---------- -->
 
+    <!-- ----------Project-list----------- -->
     <div class="nav-tab-wrapper tabs section-padding">
       <div class="container">
         <div class="flex items-center mb-14">
           <div class="flex-1 flex space-x-6 items-center">
-            <span> Showing 12 courses of 52 </span>
+            <span> نمایش ۱۲ دوره از ۵۲ </span>
           </div>
           <div class="flex-0">
             <div class="min-w-[272px]">
               <select>
-                <option data-display="Sort By: Popularity">
-                  Sort By: Popularity
-                </option>
-                <option value="1">Popularity</option>
-                <option value="2">Another option</option>
-                <option value="4">Potato</option>
+                <option data-display="مرتب‌سازی: محبوبیت">مرتب‌سازی: محبوبیت</option>
+                <option value="1">پربازدید</option>
+                <option value="2">قیمت</option>
+                <option value="4">زمان</option>
               </select>
             </div>
           </div>
         </div>
         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
+          <!-- event item 1 -->
           <div
             class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3"
           >
@@ -327,31 +258,31 @@
                   href="event-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  International Art Fair 2022
+                     پروژه طراحی سایت شماره یک
                 </a>
               </h4>
               <ul class="list space-y-3 mb-6">
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:calendar-days"></iconify-icon>
                   </span>
-                  <span>Thu, Oct 5, 2023 03:48 PM</span>
+                  <span>پنج‌شنبه، ۱۴ مهر ۱۴۰۲، ۱۵:۴۸</span>
                 </li>
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:map-pin"></iconify-icon>
                   </span>
-                  <span>Humberg City, Germany</span>
+                  <span>قم, ایران</span>
                 </li>
               </ul>
               <a
                 href="event-single.html"
                 class="btn px-8 py-[11px] bg-black text-white hover:bg-primary"
-                >Book A Seat</a
+                >خرید دوره</a
               >
             </div>
           </div>
-
+          <!-- event item 2 -->
           <div
             class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3"
           >
@@ -368,31 +299,31 @@
                   href="event-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  Painting Art Contest 2022
+                    پروژه طراحی سایت شماره دو
                 </a>
               </h4>
               <ul class="list space-y-3 mb-6">
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:calendar-days"></iconify-icon>
                   </span>
-                  <span>Thu, Oct 5, 2023 03:48 PM</span>
+                  <span>پنج‌شنبه، ۱۴ مهر ۱۴۰۲، ۱۵:۴۸</span>
                 </li>
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:map-pin"></iconify-icon>
                   </span>
-                  <span>Humberg City, Germany</span>
+                  <span>قم، ایران</span>
                 </li>
               </ul>
               <a
                 href="event-single.html"
                 class="btn px-8 py-[11px] bg-black text-white hover:bg-primary"
-                >Book A Seat</a
+                >خرید دوره</a
               >
             </div>
           </div>
-
+          <!-- event item 3 -->
           <div
             class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3"
           >
@@ -409,31 +340,31 @@
                   href="event-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  Street Performance 2022
+                    پروژه طراحی سایت شماره سه
                 </a>
               </h4>
               <ul class="list space-y-3 mb-6">
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:calendar-days"></iconify-icon>
                   </span>
-                  <span>Thu, Oct 5, 2023 03:48 PM</span>
+                  <span>پنج‌شنبه، ۱۴ مهر ۱۴۰۲، ۱۵:۴۸</span>
                 </li>
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:map-pin"></iconify-icon>
                   </span>
-                  <span>Humberg City, Germany</span>
+                  <span>قم، ایران</span>
                 </li>
               </ul>
               <a
                 href="event-single.html"
                 class="btn px-8 py-[11px] bg-black text-white hover:bg-primary"
-                >Book A Seat</a
+                >خرید دوره</a
               >
             </div>
           </div>
-
+          <!-- event item 4 -->
           <div
             class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3"
           >
@@ -450,31 +381,31 @@
                   href="event-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  Street Performance 2022
+                    پروژه طراحی سایت شماره چهار
                 </a>
               </h4>
               <ul class="list space-y-3 mb-6">
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:calendar-days"></iconify-icon>
                   </span>
-                  <span>Thu, Oct 5, 2023 03:48 PM</span>
+                  <span>پنج‌شنبه، ۱۴ مهر ۱۴۰۲، ۱۵:۴۸</span>
                 </li>
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:map-pin"></iconify-icon>
                   </span>
-                  <span>Humberg City, Germany</span>
+                  <span>هامبورگ، ایران</span>
                 </li>
               </ul>
               <a
                 href="event-single.html"
                 class="btn px-8 py-[11px] bg-black text-white hover:bg-primary"
-                >Book A Seat</a
+                >خرید دوره</a
               >
             </div>
           </div>
-
+          <!-- event item 5 -->
           <div
             class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3"
           >
@@ -491,31 +422,31 @@
                   href="event-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  Street Performance 2022
+                  پروژه طراحی سایت ۲۰۲۲
                 </a>
               </h4>
               <ul class="list space-y-3 mb-6">
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:calendar-days"></iconify-icon>
                   </span>
-                  <span>Thu, Oct 5, 2023 03:48 PM</span>
+                  <span>پنج‌شنبه، ۱۴ مهر ۱۴۰۲، ۱۵:۴۸</span>
                 </li>
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:map-pin"></iconify-icon>
                   </span>
-                  <span>Humberg City, Germany</span>
+                  <span>قم، ایران</span>
                 </li>
               </ul>
               <a
                 href="event-single.html"
                 class="btn px-8 py-[11px] bg-black text-white hover:bg-primary"
-                >Book A Seat</a
+                >خرید دوره</a
               >
             </div>
           </div>
-
+          <!-- event item 6 -->
           <div
             class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3"
           >
@@ -532,31 +463,31 @@
                   href="event-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  Street Performance 2022
+                  پروژه طراحی سایت ۲۰۲۲
                 </a>
               </h4>
               <ul class="list space-y-3 mb-6">
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:calendar-days"></iconify-icon>
                   </span>
-                  <span>Thu, Oct 5, 2023 03:48 PM</span>
+                  <span>پنج‌شنبه، ۱۴ مهر ۱۴۰۲، ۱۵:۴۸</span>
                 </li>
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:map-pin"></iconify-icon>
                   </span>
-                  <span>Humberg City, Germany</span>
+                  <span>قم، ایران</span>
                 </li>
               </ul>
               <a
                 href="event-single.html"
                 class="btn px-8 py-[11px] bg-black text-white hover:bg-primary"
-                >Book A Seat</a
+                >خرید دوره</a
               >
             </div>
           </div>
-
+          <!-- event item 7 -->
           <div
             class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3"
           >
@@ -573,31 +504,31 @@
                   href="event-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  Street Performance 2022
+                  پروژه طراحی سایت ۲۰۲۲
                 </a>
               </h4>
               <ul class="list space-y-3 mb-6">
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:calendar-days"></iconify-icon>
                   </span>
-                  <span>Thu, Oct 5, 2023 03:48 PM</span>
+                  <span>پنج‌شنبه، ۱۴ مهر ۱۴۰۲، ۱۵:۴۸</span>
                 </li>
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:map-pin"></iconify-icon>
                   </span>
-                  <span>Humberg City, Germany</span>
+                  <span>قم، ایران</span>
                 </li>
               </ul>
               <a
                 href="event-single.html"
                 class="btn px-8 py-[11px] bg-black text-white hover:bg-primary"
-                >Book A Seat</a
+                >خرید دوره</a
               >
             </div>
           </div>
-
+          <!-- event item 8 -->
           <div
             class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3"
           >
@@ -614,31 +545,31 @@
                   href="event-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  Street Performance 2022
+                  پروژه طراحی سایت ۲۰۲۲
                 </a>
               </h4>
               <ul class="list space-y-3 mb-6">
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:calendar-days"></iconify-icon>
                   </span>
-                  <span>Thu, Oct 5, 2023 03:48 PM</span>
+                  <span>پنج‌شنبه، ۱۴ مهر ۱۴۰۲، ۱۵:۴۸</span>
                 </li>
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:map-pin"></iconify-icon>
                   </span>
-                  <span>Humberg City, Germany</span>
+                  <span>قم، ایران</span>
                 </li>
               </ul>
               <a
                 href="event-single.html"
                 class="btn px-8 py-[11px] bg-black text-white hover:bg-primary"
-                >Book A Seat</a
+                >خرید دوره</a
               >
             </div>
           </div>
-
+          <!-- event item 9 -->
           <div
             class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3"
           >
@@ -655,33 +586,73 @@
                   href="event-single.html"
                   class="hover:text-primary transition duration-150"
                 >
-                  Street Performance 2022
+                  پروژه طراحی سایت ۲۰۲۲
                 </a>
               </h4>
               <ul class="list space-y-3 mb-6">
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:calendar-days"></iconify-icon>
                   </span>
-                  <span>Thu, Oct 5, 2023 03:48 PM</span>
+                  <span>پنج‌شنبه، ۱۴ مهر ۱۴۰۲، ۱۵:۴۸</span>
                 </li>
                 <li class="flex space-x-2">
-                  <span class="text-lg text-secondary">
+                  <span class="text-lg text-secondary ml-2">
                     <iconify-icon icon="heroicons:map-pin"></iconify-icon>
                   </span>
-                  <span>Humberg City, Germany</span>
+                  <span>قم، ایران</span>
                 </li>
               </ul>
               <a
                 href="event-single.html"
                 class="btn px-8 py-[11px] bg-black text-white hover:bg-primary"
-                >Book A Seat</a
+                >خرید دوره</a
               >
             </div>
           </div>
         </div>
+        <!-- ------------pagination------------ -->
         <div class="pagination mt-14">
           <ul class="flex justify-center space-x-3">
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="ml-4 flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+              >
+                <iconify-icon
+                  icon="heroicons:chevron-double-right-20-solid"
+                  class="text-2xl"
+                ></iconify-icon>
+              </a>
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-primary text-white rounded font-semibold"
+                >۱</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+                >۲</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+                >۳</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+                >۴</a
+              >
+            </li>
             <li class="inline-flex">
               <a
                 href="#"
@@ -693,93 +664,41 @@
                 ></iconify-icon>
               </a>
             </li>
-            <li class="inline-flex">
-              <a
-                href="#"
-                class="flex w-12 h-12 flex-col items-center justify-center bg-primary text-white rounded font-semibold"
-                >1</a
-              >
-            </li>
-            <li class="inline-flex">
-              <a
-                href="#"
-                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
-                >2</a
-              >
-            </li>
-            <li class="inline-flex">
-              <a
-                href="#"
-                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
-                >3</a
-              >
-            </li>
-            <li class="inline-flex">
-              <a
-                href="#"
-                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
-                >4</a
-              >
-            </li>
-            <li class="inline-flex">
-              <a
-                href="#"
-                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
-              >
-                <iconify-icon
-                  icon="heroicons:chevron-double-right-20-solid"
-                  class="text-2xl"
-                ></iconify-icon>
-              </a>
-            </li>
           </ul>
         </div>
+        <!-- ------------pagination------------ -->
       </div>
     </div>
-    <footer
-      class="bg-black bg-[url('../images/all-img/footer-bg-1.png')] bg-cover bg-center bg-no-repeat"
-    >
+    <!-- ----------Project-list----------- -->
+
+    <!-- --------------footer-------------- -->
+    <footer class="bg-black bg-[url('../images/all-img/footer-bg-1.png')] bg-cover bg-center bg-no-repeat">
       <div class="section-padding container">
         <div class="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
           <div class="single-footer">
             <div class="lg:max-w-[270px]">
               <a href="#" class="mb-10 block">
-                <img src="assets/images/logo/footer-logo.svg" alt="" />
+                <img src="assets/images/logo/footer-logo.svg" alt="لوگو رایان" />
               </a>
-              <p>
-                Lorem ipsum amet, consectetur adipiscing elit. Suspendis varius
-                enim eros elementum tristique. Duis cursus.
-              </p>
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.</p>
               <ul class="flex space-x-4 pt-8">
                 <li>
-                  <a
-                    href="#"
-                    class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white"
-                  >
+                  <a href="#" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
                     <iconify-icon icon="bxl:facebook"></iconify-icon>
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white"
-                  >
+                  <a href="#" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
                     <iconify-icon icon="bxl:twitter"></iconify-icon>
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white"
-                  >
+                  <a href="#" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
                     <iconify-icon icon="bxl:linkedin"></iconify-icon>
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white"
-                  >
+                  <a href="#" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
                     <iconify-icon icon="bxl:instagram"></iconify-icon>
                   </a>
                 </li>
@@ -787,98 +706,65 @@
             </div>
           </div>
           <div class="single-footer">
-            <div class="flex space-x-[80px]">
-              <div class="flex-1 lg:flex-none">
-                <h4 class="mb-8 text-2xl font-bold text-white">Links</h4>
+            <div class="grid grid-cols-2 gap-12">
+              <div class="flex-1 lg:flex-none ml-[80px]">
+                <h4 class="mb-8 text-2xl font-bold text-white">لینک‌ها</h4>
                 <ul class="list-item space-y-5">
-                  <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a href="#">About Us</a>
-                  </li>
-                  <li>
-                    <a href="#">Pricing</a>
-                  </li>
-                  <li>
-                    <a href="#">Courses</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="#">Blog</a>
-                  </li>
+                  <li><a href="#">صفحه اصلی</a></li>
+                  <li><a href="#">درباره ما</a></li>
+                  <li><a href="#">قیمت‌گذاری</a></li>
+                  <li><a href="#">دوره‌ها</a></li>
+                  <li><a href="#">تماس با ما</a></li>
+                  <li><a href="#">وبلاگ</a></li>
                 </ul>
               </div>
               <div class="flex-1 lg:flex-none">
-                <h4 class="mb-8 text-2xl font-bold text-white">Legal</h4>
+                <h4 class="mb-8 text-2xl font-bold text-white">قوانین</h4>
                 <ul class="list-item space-y-5">
-                  <li>
-                    <a href="#">Legal</a>
-                  </li>
-                  <li>
-                    <a href="#">Tearms of Use</a>
-                  </li>
-                  <li>
-                    <a href="#">Tearm & Condition</a>
-                  </li>
-                  <li>
-                    <a href="#">Payment Method</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacy Policy</a>
-                  </li>
+                  <li><a href="#">قوانین</a></li>
+                  <li><a href="#">شرایط استفاده</a></li>
+                  <li><a href="#">شرایط و ضوابط</a></li>
+                  <li><a href="#">روش پرداخت</a></li>
+                  <li><a href="#">سیاست حفظ حریم خصوصی</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="single-footer">
-            <h4 class="mb-8 text-2xl font-bold text-white">Newsletter</h4>
+            <h4 class="mb-8 text-2xl font-bold text-white">خبرنامه</h4>
             <div class="mb-8">
-              Join over
-              <span class="text-primary underline">68,000</span>
-              people getting our emails Lorem ipsum dolor sit amet consectet
+              به بیش از
+              <span class="text-primary underline">۶۸,۰۰۰</span>
+              نفری بپیوندید که ایمیل‌های ما را دریافت می‌کنند. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ است.
             </div>
-            <div
-              class="mb-4 flex items-center rounded-md bg-white py-[10px] pr-[10px] pl-6 shadow-e1"
-            >
-              <div class="flex-none">
-                <span class=" ">
-                  <img src="assets/images/icon/mail.svg" alt="" />
-                </span>
-              </div>
+            <div class="mb-4 flex items-center rounded-md bg-white py-[10px] pl-[10px] pl-6 shadow-e1 fd">
               <div class="flex-1">
-                <input
-                  type="text"
-                  placeholder="Enter your mail"
-                  class="border-none focus:ring-0"
-                />
+                <input type="text" placeholder="رایانامه خود را وارد کنید ..." class="border-none focus:ring-0" />
+              </div>
+              <div class="flex-none">
+                <span><img src="assets/images/icon/mail.svg" alt="ایمیل" /></span>
               </div>
             </div>
-            <button class="btn btn-primary block w-full text-center">
-              Subscribe Now
-            </button>
+            <button class="btn btn-primary block w-full text-center">اشتراک</button>
           </div>
         </div>
       </div>
-      <div
-        class="container border-t border-white border-opacity-[0.1] py-8 text-center text-base"
-      >
-        &copy; Copyright 2022 | Rayan Template | All Rights Reserved
+      <div class="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
+        &copy; تمامی حقوق محفوظ است ۲۰۲۲ | قالب رایان
       </div>
     </footer>
+    <!-- --------------footer-------------- -->
 
     <div class="rt-mobile-menu-overlay"></div>
-    <!-- scripts -->
+    <!---------------- scripts ---------------->
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/rt-plugins.js"></script>
     <script src="https://unpkg.com/phosphor-icons"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
   </body>
 </html>
+         
